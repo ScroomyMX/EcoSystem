@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj": {}
+    "C:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj": {
+    "C:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj",
+        "projectUniqueName": "C:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj",
         "projectName": "EcoSystem.Data",
-        "projectPath": "c:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj",
+        "projectPath": "C:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\EcoSystem.Data.csproj",
         "packagesPath": "C:\\Users\\mende\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\obj\\",
+        "outputPath": "C:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

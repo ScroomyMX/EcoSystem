@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mg+dYiJ8E4c=",
+  "dgSpecHash": "7gAzU8AR7CI=",
   "success": true,
   "projectFilePath": "C:\\Users\\mende\\Documents\\Tarea\\Cuatri 6\\Programación III\\Programas\\EcoSystem\\EcoSystem.API\\EcoSystem.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mende\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\mende\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.9\\microsoft.entityframeworkcore.10.0.9.nupkg.sha512",
+    "C:\\Users\\mende\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.9\\microsoft.entityframeworkcore.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\mende\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.9\\microsoft.entityframeworkcore.analyzers.10.0.9.nupkg.sha512",
     "C:\\Users\\mende\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []
