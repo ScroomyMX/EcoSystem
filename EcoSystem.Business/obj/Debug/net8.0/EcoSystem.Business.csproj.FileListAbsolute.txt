@@ -1,0 +1,16 @@
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\bin\Debug\net8.0\EcoSystem.Business.deps.json
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\bin\Debug\net8.0\EcoSystem.Business.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\bin\Debug\net8.0\EcoSystem.Business.pdb
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\bin\Debug\net8.0\EcoSystem.Data.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\bin\Debug\net8.0\EcoSystem.Data.pdb
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.csproj.AssemblyReference.cache
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.AssemblyInfoInputs.cache
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.AssemblyInfo.cs
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.csproj.CoreCompileInputs.cache
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.sourcelink.json
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSyste.7A58281C.Up2Date
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\refint\EcoSystem.Business.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\EcoSystem.Business.pdb
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Business\obj\Debug\net8.0\ref\EcoSystem.Business.dll

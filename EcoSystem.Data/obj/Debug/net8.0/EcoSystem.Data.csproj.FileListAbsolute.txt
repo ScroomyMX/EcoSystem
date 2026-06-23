@@ -1,0 +1,13 @@
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\bin\Debug\net8.0\EcoSystem.Data.deps.json
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\bin\Debug\net8.0\EcoSystem.Data.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\bin\Debug\net8.0\EcoSystem.Data.pdb
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.csproj.AssemblyReference.cache
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.AssemblyInfoInputs.cache
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.AssemblyInfo.cs
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.sourcelink.json
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\refint\EcoSystem.Data.dll
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\EcoSystem.Data.pdb
+C:\Users\mende\Documents\Tarea\Cuatri 6\Programación III\Programas\EcoSystem\EcoSystem.Data\obj\Debug\net8.0\ref\EcoSystem.Data.dll

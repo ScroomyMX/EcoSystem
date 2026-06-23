@@ -1,5 +1,7 @@
+using EcoSystem.Data;
 using EcoSystem.Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace EcoSystem.API.Controllers
 {
@@ -7,26 +9,46 @@ namespace EcoSystem.API.Controllers
     [Route("api/[controller]")]
     public class ProductosController : ControllerBase
     {
-        private static readonly List<Producto> Productos = new();
+        private readonly AppDbContext _context;
+
+        public ProductosController(AppDbContext context)
+        {
+            _context = context;
+        }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Producto>> Get()
+        public async Task<ActionResult<IEnumerable<Producto>>> Get()
         {
-            return Ok(Productos);
+            return Ok(await _context.Productos.ToListAsync());
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Producto>> GetById(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
+
+            if (producto == null)
+                return NotFound();
+
+            return Ok(producto);
         }
 
         [HttpPost]
-        public ActionResult<Producto> Post(Producto producto)
+        public async Task<ActionResult<Producto>> Post(Producto producto)
         {
-            producto.Id = Productos.Count + 1;
-            Productos.Add(producto);
-            return CreatedAtAction(nameof(Get), new { id = producto.Id }, producto);
+            _context.Productos.Add(producto);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(
+                nameof(GetById),
+                new { id = producto.Id },
+                producto);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, Producto producto)
+        public async Task<IActionResult> Put(int id, Producto producto)
         {
-            var existente = Productos.FirstOrDefault(p => p.Id == id);
+            var existente = await _context.Productos.FindAsync(id);
 
             if (existente == null)
                 return NotFound();
@@ -38,18 +60,23 @@ namespace EcoSystem.API.Controllers
             existente.SKU = producto.SKU;
             existente.CategoriaId = producto.CategoriaId;
 
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var producto = Productos.FirstOrDefault(p => p.Id == id);
+            var producto = await _context.Productos.FindAsync(id);
 
             if (producto == null)
                 return NotFound();
 
-            Productos.Remove(producto);
+            _context.Productos.Remove(producto);
+
+            await _context.SaveChangesAsync();
+
             return NoContent();
         }
     }
